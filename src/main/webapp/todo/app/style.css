@@ -1,0 +1,9 @@
+#create-task,#update-task{
+	display:none;
+}
+.action-task{
+	color: green;
+}
+span{
+	margin-right:20px;
+}

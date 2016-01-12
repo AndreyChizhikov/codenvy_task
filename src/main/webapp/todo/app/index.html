@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task table</title>
+    <link media="all" rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js" ></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<div id="main">
+
+
+    <div id="create-header"></div>
+    <div id="create-task">
+        <form method="post" action="/todo">
+            <span>ID:</span>
+            <br>
+            <input type="text" name="id">
+            <br>
+            <span>Target Date:</span>
+            <br>
+            <input type="text" name="targetDate">
+            <br>
+            <span>Text task</span>
+            <br>
+            <input type="text" name="text">
+            <br>
+            <input type="submit" value="Add task">
+        </form>
+    </div>
+
+    <div id="update-task">
+        <div class="action-task">----Update Task-------</div>
+            <span>ID:</span>
+            <br>
+            <input type="text" name="id-update">
+            <br>
+            <span>Date creation:</span>
+            <br>
+            <input type="text" name="dateCreation-update">
+            <br>
+            <span>Target Date:</span>
+            <br>
+            <input type="text" name="targetDate-update">
+            <br>
+            <span>Text task</span>
+            <br>
+            <input type="text" name="text-update">
+            <br>
+    </div>
+</div>
+</body>
+</html>
